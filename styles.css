@@ -1,0 +1,34 @@
+body,
+#app {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+#app > .container {
+    margin: 0 auto;
+    left: 0;
+    height: 400px;
+    width: 800px;
+    margin-top: 50px;
+    box-shadow: 3px 2px 3px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+
+#app > .container > div {
+    height: 398px;
+    width: 398px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+
+#app > .container > .left {
+    background: lightblue;
+    float: left;
+}
+#app > .container > .right {
+    background: rgb(198, 219, 198);
+    float: right;
+}
